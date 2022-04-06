@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Template for the app Compare Yourself from Udemy
+
+Resources:
+  APIGateway:
+    Type: AWS::ApiGateway::RestApi
+    Properties:
+      Name: compare-yourself
+      Description: Allow users to compare themselves
